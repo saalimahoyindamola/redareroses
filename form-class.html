@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Form and Input</title>
+	</head>
+	<body>
+		<h1>Register to Sally's Varieties</h1>
+
+		<form>
+			<div>
+				<label>FIRST NAME:</label>
+				<input type="text" placeholder="FIRST NAME" name="firstname_" required>
+			</div><br>
+			
+			<div>
+				<label>LAST NAME:</label>
+				<input type="text" placeholder="LAST NAME" name="lastname"required>
+			</div><br>
+
+			<div>
+				<label>PASSWORD:</label>
+				<input type="password" placeholder="PASSWORD" name="password"required>
+			</div><br>
+
+			<div>
+				<label>EMAIL:</label>
+				<input type="email" placeholder="EMAIL" name="email"required>
+			</div><br>
+
+
+			<div>
+				<label>TELL US ABOUT YOURSELF:</label>
+				<!-- <textarea rows="5" cols="30" style="resize:none"></textarea> -->
+			    <textarea style="resize:none"></textarea>
+			</div><br>
+
+			<div>
+				<label>COURSES:</label>
+			<select>
+					<option selected disabled>SELECT YOUR COURSES</option>
+				<option value='dataanalysis'>DATA ANALYSIS</option>
+				<option value='ui_ux'>UI/UX</option>
+				<option value='webdev'>Web Development</option>
+
+				<option value='graphicdesigning'>Graphic Designing</option>
+				<option value='videoediting'>Video Editing</option>
+			 </select>
+			</div><br>
+
+
+			<div>
+				<label> BIRTHDATE:</label>
+				<input type="date" placeholder="BIRTHDATE" name='birthdate' required>
+
+			</div><br>
+
+			<div>
+				<label> AGE:</label>
+				<input type='number' placeholder='AGE' name='age' required>
+				
+
+			<div><br>
+
+				<div>
+					<label>MEMBERSHIP</label>
+					<input type='radio' name='membership' value='simple' id='membership' > Simple
+					<input type='radio' name='membership' checked value='standard' id='membership'>Standard
+					<input type='radio' name='membership' value='super' id='membership'> Super
+				</div><br>
+
+				<div>
+					<label>I like</label>
+					<input type='checkbox' name='likes' value='bike' id='likes'>Bike
+					<input type='checkbox' name='likes' value='car' id='likes'>Car
+					<input type='checkbox' name='likes' value='Boat'id='likes'>Boat
+				</div><br>
+
+                <!-- <input type="submit" value="Register"> -->
+				<button type="submit" name="hell">HELL</button><br><br>
+				<button type='reset'>RESET</button>
+			</div>
+
+		</form>
+	</body>
+</html>

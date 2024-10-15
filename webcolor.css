@@ -1,0 +1,13 @@
+h1{
+	background-color: orange;
+	color: white;
+}
+
+p{
+	background-color: pink;
+	color: white;
+}
+
+ul{
+	list-style: none;
+}
